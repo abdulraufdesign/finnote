@@ -56,8 +56,8 @@
                 <ul>
                     <li style="display: flex; align-items: center; gap: 4px;">
                         <span class="proj-p">15 Sep, 2024</span>
-                        <span style="display: inline; width: 20px; height: 0.5px; background-color: black;"></span>
-                        <span class="proj-p">Present</span>
+                        <span style="display: inline; width: 20px; height: 0.5px; background-color: var(--white-04);"></span>
+                        <span class="proj-p">5 Oct, 2024</span>
                     </li>
                 </ul>
             </div>
@@ -65,19 +65,22 @@
         <div class="grid-wrapper">
             <div>
                 <h2 class="proj-h2">About</h2>
-                <p class="faded-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, qui.</p>
+                <p class="faded-p">FinNote is your Digital expense and budget tracker made for managing daily finances such as expenses/income in a safe place and assessing your personal as well as financial growth.</p>
             </div>
             <div>
-                <img src="./Chill-Time.svg" class="proj-img" alt="about" height="350px">
+                <img src="./Chill-Time.svg" class="proj-img" alt="about" height="350px" style="width: 100%; fill: var(--black); color: #05bbed96;">
             </div>
         </div>
         <div class="grid-wrapper">
-            <div>
+            <div style="border-radius: 0;">
                 <h2 class="proj-h2">Problem Statement</h2>
-                <p class="faded-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, qui.</p>
+                <p class="faded-p">"How do I track my daily,weekly,and monthly expenses without manually calculating and without contiuously filling registers and note books?"</p>
+                <br>
+                <h2 class="proj-h2">Solution</h2>
+                <p class="faded-p">Design and develop a Home expenses tracker app to automate:<br>- Reports and analysis<br>- Tracking daily expenses and savings<br>- Organizing the expenses and incomes in the best way possible</p>
             </div>
             <div>
-                <img src="./Flag.svg" class="proj-img" alt="problem" height="350px">
+                <img src="./Flag.svg" class="proj-img dynamic-svg" alt="problem" height="350px" style="width: 100%;">
             </div>
         </div>
         <div class="grid-wrapper">
@@ -86,56 +89,63 @@
             </div>
             <div>
                 <h2 class="proj-h2">Planning time</h2>
-                <p class="faded-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, qui.</p>
+                <p class="faded-p">To start this journey, I created a complete plan on Notion.</p>
             </div>
         </div>
         <div>
             <h2 class="proj-h2">Design process</h2>
-            <p class="faded-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, qui.</p>
-            <img src="./design-process.png" alt="picture of design process" style="width: 100%;">
+            <div>
+                <img src="./design-process.svg" alt="design process" width="100%">
+            </div>
         </div>
-        <div>
+        <div style="display: grid; row-gap: 1.4rem; margin-top: 2rem;">
             <h3 class="proj-h3">User Research</h3>
-            <h2 class="proj-h2">Surveys and Interviews</h2>
-            <p class="faded-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, rerum.</p>
+            <div class="projcontainer" style="background-image: url(./ux-survey.png); background-position: 0; background-repeat: no-repeat; background-size: cover;">
+                <h2 class="proj-h2">Surveys and Interviews</h2>
+                <p class="faded-p">We conducted a survey where 8 people submitted their responses.</p>
+            </div>
             <div class="gallery">
-                <div class="proj-img"></div>
-                <div class="proj-img"></div>
-                <div class="proj-img"></div>
+                <div class="proj-img"><img src="./chart1.png" alt="chart for people" style="mix-blend-mode: multiply;"></div>
+                <div class="proj-img" style="width: 400px; background-color: #3180e722;">
+                    <p style="color: var(--blue); font-weight: 700; font-size: 24px;">40% of the people face financial problems with their family or friends.</p>
+                </div>
             </div>
         </div>
-        <div>
+        <div  style="display: grid; row-gap: 1rem;">
             <h2 class="proj-h2">Competitive analysis</h2>
-            <p class="faded-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, rerum.</p>
+            <p class="faded-p">I evaluated the strengths, weaknesses, content design, UX design, and potential opportunities for improvement in each of the apps. I also walked through the flow of each app, step-by-step, to understand the user journey.</p>
             <div class="grid">
-                <div class="proj-img"></div>
-                <div class="proj-img"></div>
-                <div class="proj-img"></div>
-                <div class="proj-img"></div>
+                <div class="proj-img" style="background-color: #fa5a0096;"><img src="./buckwheat.png" alt="buckwheat app" ></div>
+                <div class="proj-img" style="background-color: #05bbed96;"><img src="./spendee.png" alt="spendee app"></div>
+                <div class="proj-img" style="background-color: #ef402c96;"><img src="./money-manager.png" alt="money-manager app"></div>
+                <div class="proj-img" style="background-color: #4bb04f96;"><img src="./expense-manager.png" alt="expense-manager app" ></div>
             </div>
         </div>
-        <div>
+        <div style="display: grid; row-gap: 1.4rem; margin-top: 2rem;">
             <h3 class="proj-h3">Designing</h3>
-            <div class="projcontainer" style="background-image: url(./wireframes.png)">
-                <p class="faded-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, rerum.</p>
+            <div class="projcontainer" style="background-image: url(./wireframes.jpg); background-position: 0; background-repeat: no-repeat; background-size: cover;">
+                <h2 class="proj-h2">Sketches & Wireframes</h2>
+                <p class="faded-p">After completing the research work, I started giving the app the inital shape.</p>
             </div>
             <div class="grid-wrapper">
                 <div>
-                    <img src="./mockup1.png" class="proj-img" alt="problem" srcset="">
+                    <img src="./mockup1.png" class="proj-img" alt="problem" style="width: 100%;">
                 </div>
-                <div>
-                    <img src="./finnote-logo.png" class="proj-img" alt="problem" srcset="">
+                <div class="quote">
+                    <h2 class="proj-h2">A blend of Material Design and Apple's HIG Design</h2>
+                    <p class="faded-p">Being inspired by Notion, Google, and Apple, I created the design system that resonates all of them.</p>
                 </div>
             </div>
             <div class="projcontainer">
+                <img src="./design.png" alt="final designs">
             </div>
         </div>
         
     </div>
     <div class="footer">
         <div>
-            <p class="big-p">Let's get in touch</p>
-            <p class="faded-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, officiis.</p>
+            <h4 class="big-p">Let's get in touch</h4>
+            <p class="faded-p">Feel free to reach me out at&nbsp;<a href="mailto:abdulrauf.design@outlook.com" class="get-in-touch">abdulrauf.design@outlook.com</a>&nbsp;for any work or let's connect.</p>
             <span class="smlinks">
                 <a href="https://www.instagram.com/abdulrauf.design"><i class="ph-bold ph-instagram-logo"></i></a>
                 <a href="https://behance.net/abdulraufdesign"><i class="ph-bold ph-behance-logo"></i></a>
@@ -145,5 +155,7 @@
         </div>
         <a href="#" class="big-p">Ascend LMS &nbsp;<i class="ph-bold ph-arrow-right"></i></a>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
