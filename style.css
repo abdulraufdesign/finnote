@@ -497,3 +497,48 @@ a:has(.project-sec){
     gap: 1rem;
   }
 }
+
+@media screen and (width < 1260px) {
+  .section, .flex-wrapper,.title-bar, .footer{
+      padding-left: 4rem;
+      padding-right: 4rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .title-bar{
+      justify-content: stretch;
+  }
+  .name{
+      font-size: 7.4vw;
+  }
+  .faded-p {
+      width: auto;
+  }
+  .grid-wrapper{
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .section, .flex-wrapper, .title-bar, .footer{
+      padding-left: 2rem;
+      padding-right: 2rem;
+  }
+  .name{
+      width: auto;
+  }
+  .footer{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .name{
+      font-size: 28px;
+  }
+  .faded-p{
+      font-size: 16px;
+  }
+}
+
