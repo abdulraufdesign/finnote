@@ -303,7 +303,8 @@ a:has(.project-sec){
   padding: 2rem 0;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 4rem;
+  column-gap: 8rem;
+  row-gap: 2rem;
   align-items: flex-start;
   ul{
     list-style-type: none;
@@ -499,16 +500,13 @@ a:has(.project-sec){
 }
 
 @media screen and (width < 1260px) {
-  .section, .flex-wrapper,.title-bar, .footer{
+  .section, .title-bar, .footer{
       padding-left: 4rem;
       padding-right: 4rem;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .title-bar{
-      justify-content: stretch;
-  }
   .name{
       font-size: 7.4vw;
   }
@@ -517,11 +515,20 @@ a:has(.project-sec){
   }
   .grid-wrapper{
     grid-template-columns: 1fr;
+    &#timeline{
+      display: flex;
+      flex-direction: column-reverse;
+
+    }
+  }
+  .gallery{
+    flex-direction: column;
+    gap: 1rem;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .section, .flex-wrapper, .title-bar, .footer{
+  .section, .title-bar, .footer{
       padding-left: 2rem;
       padding-right: 2rem;
   }
@@ -530,6 +537,8 @@ a:has(.project-sec){
   }
   .footer{
     flex-direction: column;
+    row-gap: 2rem;
+    align-items: flex-start;
   }
 }
 
