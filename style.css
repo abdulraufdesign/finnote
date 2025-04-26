@@ -527,7 +527,6 @@ a:has(.project-sec){
     gap: 1rem;
   }
   .projcontainer {
-    aspect-ratio: 16/9;
     height: 300px;
     img{
       inset: 0 !important;
