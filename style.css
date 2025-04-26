@@ -418,7 +418,7 @@ a:has(.project-sec){
   img{
     width: 100%;
     object-fit: cover;
-    position: absolute;
+    position: relative;
   }
 }
 
@@ -523,6 +523,13 @@ a:has(.project-sec){
   .gallery{
     flex-direction: column;
     gap: 1rem;
+  }
+  .projcontainer {
+    aspect-ratio: 16/9;
+    height: 300px;
+    img{
+      inset: 0 !important;
+    }
   }
 }
 
