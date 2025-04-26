@@ -419,6 +419,8 @@ a:has(.project-sec){
     width: 100%;
     object-fit: cover;
     position: absolute;
+    align-self: center;
+    justify-self: center;
   }
 }
 
