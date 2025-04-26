@@ -410,7 +410,7 @@ a:has(.project-sec){
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #05bbed96;
+  background-color: #05bbed18;
   padding: 2rem;
   height: 400px;
   border-radius: 24px;
@@ -418,7 +418,7 @@ a:has(.project-sec){
   img{
     width: 100%;
     object-fit: cover;
-    position: relative;
+    position: absolute;
   }
 }
 
